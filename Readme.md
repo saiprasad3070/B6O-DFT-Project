@@ -13,7 +13,7 @@ Cutoff: 520 eV
 
 k-mesh: 14×14×14 Γ-centered
 
-**Structure: Trigonal R-3m, 14-atom rhombohedral primitive cell**
+**Structure**: Trigonal R-3m, 14-atom rhombohedral primitive cell
 
 **Key Results**
 
