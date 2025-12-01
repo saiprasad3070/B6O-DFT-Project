@@ -3,7 +3,7 @@
 This repository contains a complete Density Functional Theory (DFT) analysis of primitive boron suboxide (B₆O) using VASP.
 The project covers relaxation, SCF, DOS, band structure, and elastic property calculations.
 
-Methods
+**Methods**
 
 Software: VASP, VESTA, VASPKIT
 
@@ -37,4 +37,4 @@ Poisson ratio: 0.165
 
 Debye temperature: 1633 K
 
-B₆O is confirmed to be superhard, stiff, and thermally stable.
+**B₆O is confirmed to be superhard, stiff, and thermally stable.**
