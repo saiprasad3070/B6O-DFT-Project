@@ -1,4 +1,4 @@
-** B₆O DFT Study — Structural, Electronic & Mechanical Properties
+**B₆O DFT Study — Structural, Electronic & Mechanical Properties**
 
 This repository contains a complete Density Functional Theory (DFT) analysis of primitive boron suboxide (B₆O) using VASP.
 The project covers relaxation, SCF, DOS, band structure, and elastic property calculations.
@@ -15,7 +15,7 @@ k-mesh: 14×14×14 Γ-centered
 
 **Structure: Trigonal R-3m, 14-atom rhombohedral primitive cell**
 
-Key Results
+**Key Results**
 
 Relaxed energy: –99.93 eV
 
