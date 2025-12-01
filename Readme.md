@@ -1,59 +1,40 @@
-🧪 First-Principles Study of Boron Suboxide (B₆O)
-Structural, Electronic & Mechanical Properties Using DFT (VASP)
-📌 Overview
+** B₆O DFT Study — Structural, Electronic & Mechanical Properties
 
-This repository contains a full Density Functional Theory (DFT) workflow for studying the structural, electronic, and mechanical properties of primitive α-B₆O, a superhard boron-rich ceramic.
+This repository contains a complete Density Functional Theory (DFT) analysis of primitive boron suboxide (B₆O) using VASP.
+The project covers relaxation, SCF, DOS, band structure, and elastic property calculations.
 
-The project was performed using the VASP simulation package with post-processing using VASPKIT, VESTA, and pymatgen.
-It includes:
+Methods
 
-Structural relaxation
+Software: VASP, VESTA, VASPKIT
 
-Static SCF calculation
+Functional: PBE–GGA
 
-Density of States (DOS)
+Cutoff: 520 eV
 
-Band structure
+k-mesh: 14×14×14 Γ-centered
 
-Elastic constants (Cᵢⱼ)
+**Structure: Trigonal R-3m, 14-atom rhombohedral primitive cell**
 
-Mechanical moduli (B, G, E, ν, Debye temperature)
+Key Results
 
-🧬 Why Study B₆O?
+Relaxed energy: –99.93 eV
 
-Boron suboxide (B₆O) is one of the hardest known materials, with:
+Fermi energy (raw): 5.33 eV
 
-Exceptional mechanical stiffness
+Band gap: 1.85 eV (direct)
 
-High thermal stability
+DOS: Semiconducting, strong B–O/B–B bonding peaks
 
-Strong B–B and B–O covalent bonding
+Elastic moduli:
 
-Low density
+Bulk modulus: 227 GPa
 
-Resistance to extreme conditions
+Shear modulus: 208 GPa
 
-Understanding B₆O at the first-principles level helps explain:
+Young’s modulus: 477 GPa
 
-Origin of its superhardness
+Poisson ratio: 0.165
 
-Bonding characteristics
+Debye temperature: 1633 K
 
-Electronic behavior
-
-Mechanical stability
-
-⚙️ Computational Details
-
-Software: VASP 6
-Pseudopotential: PAW (Projector Augmented Wave)
-Exchange–Correlation: PBE–GGA
-Plane-Wave Cutoff: 520 eV
-k-point Mesh: Γ-centered 14×14×14
-Structure:
-
-Space Group: R-3m (Trigonal)
-
-Primitive rhombohedral cell: 14 atoms
-
-All calculations performed on optimized structure from Materials Project.
+B₆O is confirmed to be superhard, stiff, and thermally stable.
