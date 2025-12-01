@@ -15,7 +15,7 @@ k-mesh: 14×14×14 Γ-centered
 
 **Structure**: Trigonal R-3m, 14-atom rhombohedral primitive cell
 
-**Key Results**
+**Key Results**:
 
 Relaxed energy: –99.93 eV
 
